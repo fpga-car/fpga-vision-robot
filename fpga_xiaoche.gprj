@@ -1,0 +1,13 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AT-138C" pn="GW5AT-LV138PG484AC1/I0">gw5at138c-007</Device>
+    <FileList>
+        <File path="src/motor_test.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_rx_esp.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_rx_k210.v" type="file.verilog" enable="1"/>
+        <File path="src/fpga_xiaoche.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
